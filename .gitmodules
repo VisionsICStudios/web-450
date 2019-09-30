@@ -1,6 +1,0 @@
-[submodule "wilson-mean-seed"]
-	path = wilson-mean-seed
-	url = ./week-1/wilson-mean-seed
-[submodule "wilson-nodequiz"]
-	path = wilson-nodequiz
-	url = ./week-1/wilson-nodequiz
