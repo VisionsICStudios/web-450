@@ -1,0 +1,32 @@
+<!-- /*
+============================================
+; Title: employee-login.component.html (Week 2)
+; Author: Professor Krasso
+; Modified: Aaron Wilson
+; Date: 29 Sept 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/ -->
+
+<div fxLayout="column" style="margin-top: 75px;">
+  <mat-card class="mat-elevation-z8" style="width: 50%;">
+    <mat-card-title>Enter am Employee ID</mat-card-title>
+    <form [formGroup]="form" #loginForm="ngForm" (ngSubmit)="onSubmit(form.value); form.reset()">
+      <mat-card-content>
+        <mat-form-field>
+          <input type="text" matInput [formControl]="form.controls['employeeId']" placeholder="Employee ID..." />
+        </mat-form-field>
+        <small style="color: red;" *ngIf="form.controls['employeeId'].hasError('required') && form.controls['employeeId'].touched">
+          Employee Id is a required field.
+        </small>
+        <small *ngIf="form.controls['employeeId'].hasError('pattern') && form.controls['employeeId'].touched">
+          Invalid Employee Id, Use numeral values.
+        </small>
+      </mat-card-content>
+
+      <mat-card-actions align="end">
+        <button mat-raised-button [disabled]="!form.valid" type="submit" color="primary">Submit ID</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>

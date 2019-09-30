@@ -1,0 +1,22 @@
+/*
+============================================
+; Title:  nodequiz-theme.scss (Week 2)
+; Author: Professor Krasso
+; Modified: Aaron Wilson
+; Date: 29 Sept 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$nodequiz-theme-primary: mat-palette($mat-green, 50);
+$nodequiz-theme-secondary: mat-palette($mat-green, 800);
+$nodequiz-theme-accent: mat-palette($mat-green, A700);
+$nodequiz-theme-warn: mat-palette($mat-red);
+
+$nodequiz-theme: mat-light-theme($nodequiz-theme-primary, $nodequiz-theme-secondary, $nodequiz-theme-accent, $nodequiz-theme-warn);
+
+@include angular-material-theme($nodequiz-theme);
