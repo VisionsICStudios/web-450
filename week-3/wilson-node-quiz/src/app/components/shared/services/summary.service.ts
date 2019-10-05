@@ -1,0 +1,12 @@
+
+
+import { Summary } from 'server/models/Summary';
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class SummaryService {
+
+  constructor() { }
+}
