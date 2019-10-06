@@ -1,3 +1,14 @@
+
+/*
+============================================
+; Title:  polyfills.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
