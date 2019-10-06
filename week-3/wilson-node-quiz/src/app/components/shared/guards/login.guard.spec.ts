@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  login.guard.spec.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 import { TestBed, async, inject } from '@angular/core/testing';
 
 import { LoginGuard } from './login.guard';
