@@ -1,4 +1,12 @@
-
+/*
+============================================
+; Title: global.component.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
 
 import { Component, OnInit } from '@angular/core';
 
