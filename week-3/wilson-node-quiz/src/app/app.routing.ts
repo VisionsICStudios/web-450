@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  app.routing.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 
 import { Routes } from '@angular/router';
 import { IndexRoutes } from './components/pages/index/index.routing';
