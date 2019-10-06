@@ -1,3 +1,14 @@
+
+/*
+============================================
+; Title:  test.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';
