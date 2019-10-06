@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  global.component.spec.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GlobalComponent } from './global.component';
