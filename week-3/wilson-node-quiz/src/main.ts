@@ -1,3 +1,14 @@
+
+/*
+============================================
+; Title:  main.ts (Week 3)
+; Author: Professor Krasso
+; Modified by: Aaron Wilson
+; Date: 2 Oct 2019
+; Description: MEAN Node Quiz.
+;===========================================
+*/
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
